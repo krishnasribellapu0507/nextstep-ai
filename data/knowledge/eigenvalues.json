@@ -1,0 +1,50 @@
+{
+  "topic": "eigenvalues",
+  "concepts": [
+    {
+      "id": "determinant_2x2",
+      "name": "2x2 Determinants",
+      "difficulty": 1,
+      "prerequisites": [],
+      "misconceptions": [
+        "determinant_sign_error",
+        "diagonal_multiplication_error"
+      ]
+    },
+    {
+      "id": "diagonal_eigenvalues",
+      "name": "Diagonal Matrix Eigenvalues",
+      "difficulty": 2,
+      "prerequisites": [
+        "determinant_2x2"
+      ],
+      "misconceptions": [
+        "diagonal_entries_not_recognized"
+      ]
+    },
+    {
+      "id": "triangular_eigenvalues",
+      "name": "Triangular Matrix Eigenvalues",
+      "difficulty": 3,
+      "prerequisites": [
+        "diagonal_eigenvalues"
+      ],
+      "misconceptions": [
+        "triangular_eigenvalue_error"
+      ]
+    },
+    {
+      "id": "general_2x2_eigenvalues",
+      "name": "General 2x2 Eigenvalues",
+      "difficulty": 4,
+      "prerequisites": [
+        "determinant_2x2",
+        "diagonal_eigenvalues"
+      ],
+      "misconceptions": [
+        "characteristic_polynomial_error",
+        "quadratic_solution_error"
+      ]
+    }
+  ]
+}
